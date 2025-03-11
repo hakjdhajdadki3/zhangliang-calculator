@@ -1,0 +1,10 @@
+{
+  "name": "zhangliang-calculator",
+  "version": "5.1.3",
+  "scripts": {
+    "asbuild": "asc assembly/index.ts -o build/optimized.wasm --optimize"
+  },
+  "devDependencies": {
+    "assemblyscript": "0.27.2"
+  }
+}
